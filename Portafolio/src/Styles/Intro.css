@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+
+.titulos{
+    color: oklch(0.627 0.194 149.214);
+    font-weight: 700;    
+}
+
+.subtitulos{
+    font-weight: 700;    
+}
+
+.divMiNombre {  
+    display: grid;
+    place-items: initial;
+    justify-content: center;
+    
+}
+
+.buttons {
+    margin-left: 40px;
+    margin-right: 40px;
+     border-radius: 50px;
+     background-color: black;
+     color: oklch(0.627 0.194 149.214);
+     border-color: oklch(0.627 0.194 149.214);
+     box-shadow: 1px 2px 23px 2px #2da16b;
+}
+
+.buttons:hover{
+    background-color: oklch(0.627 0.194 149.214);
+     color: black;
+     border-color: black;
+}
+
+.sectionbutons {
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+
+.divCard{
+    background: rgba( 45, 161, 107, 0.15 );
+    box-shadow: 1px 2px 23px 2px #2da16b;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border-color: oklch(0.627 0.194 149.214);
+    margin: 20px;
+}
+
+.divCard2 {
+    background: rgba( 45, 161, 107, 0.15 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border-color: oklch(0.627 0.194 149.214);
+
+}
+
+
+.fullscreenSeccion {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+  }
+  
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Aumenté el espacio entre columnas */
+    padding: 20px;
+  }
+
+
+
+
+/* Card General */
+.card {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 1px 2px 23px 2px #2da16b;
+    text-align: center;
+  }
+  
+  .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .imagenes img {
+    width: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .contenido h2 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  
+  .contenido p {
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  .contenido span {
+    display: block;
+    margin-top: 10px;
+    color: #4a90e2;
+  }
+  
+  @media (max-width: 768px) {
+    .imagenes {
+      flex-direction: column;
+    }
+  
+    .imagenes img {
+      width: 100%;
+    }
+  }
+
+
+  .imagenes-hover {
+  
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .imagenes-hover:hover {
+    transform: scale(2.4); 
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 60;
+    height: 60;
+    transition: transform 0.3s ease-in-out;
+    animation: bounce 2s infinite alternate ease-in-out;
+  }
+  
+  .logo:nth-child(1) {
+    animation-delay: 0s; /* Sin retraso */
+  }
+  
+  .logo:nth-child(2) {
+    animation-delay: 0.2s; /* Retraso en el segundo logo */
+  }
+  
+  .logo:nth-child(3) {
+    animation-delay: 0.4s; /* Retraso en el tercer logo */
+  }
+  
+  .logo:nth-child(4) {
+    animation-delay: 0.6s; /* Retraso en el cuarto logo */
+  }
+  
+  .logo:nth-child(5) {
+    animation-delay: 0.8s; /* Retraso en el quinto logo */
+  }
+  
+  .logo:nth-child(6) {
+    animation-delay: 1s; /* Retraso en el sexto logo */
+  }
+  
+  .logo:nth-child(7) {
+    animation-delay: 1.2s; /* Retraso en el séptimo logo */
+  }
+
+  .logo:nth-child(8) {
+    animation-delay: 1.4s; /* Retraso en el séptimo logo */
+  }
+
+  .logo:nth-child(9) {
+    animation-delay: 1.6s; /* Retraso en el séptimo logo */
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .logos img:hover {
+    transform: scale(1.2) rotate(10deg);
+  }
+  
+  
+
+  
