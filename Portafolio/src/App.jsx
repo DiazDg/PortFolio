@@ -2,7 +2,7 @@ import '../src/Styles/Intro.css'
 import './App.css'
 import { Introduccion, Details } from './components/intro.jsx'
 import ButtonsLinks from './components/Download.jsx'
-import { CardStyle } from './components/Card.jsx'
+import { CardStyle, CardTecnologias } from './components/Card.jsx'
 
 function App() {
 
@@ -47,8 +47,6 @@ function App() {
       />
       </div>
     </section>
-
-
     </>
 
 
