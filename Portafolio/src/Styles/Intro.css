@@ -161,8 +161,8 @@
   }
   
   .logo {
-    width: 60;
-    height: 60;
+    width: 100px;
+    height: 60px;
     transition: transform 0.3s ease-in-out;
     animation: bounce 2s infinite alternate ease-in-out;
   }
